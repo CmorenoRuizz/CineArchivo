@@ -48,7 +48,7 @@ router.get('user/:id', isAuthenticated, function(req, res) {
 
 // Ruta de contacto
 router.get('/contacto', function(req, res) {
-  res.render('contacto', { title: "Contacto" });
+  res.render('contacto', { title: "Contacto", user: req.session.user });
 });
 
 // Logout (destruir la sesión)

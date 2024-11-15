@@ -9,7 +9,11 @@
     
     <header id="top">
 
-        <%- include("partials/header") %>
+        <% if (user) { %>
+            <%- include("partials/headerUser") %>
+        <% } else { %>
+            <%- include("partials/header") %>
+        <% } %>
 
     </header>
 
