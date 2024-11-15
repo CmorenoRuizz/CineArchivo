@@ -1,0 +1,48 @@
+<h2>Últimas películas añadidas por la comunidad</h2>
+<div id="pelis1">
+    <% peliculas.forEach((pelicula, index) => { %>
+        <% if (index < 5) { %>
+            <a href="/<%= pelicula.id %>" class="movie-link">
+                <div>
+                    <img src="<%= pelicula.image_url %>" alt="<%= pelicula.name %>">
+                    <p><%= pelicula.name %></p>
+                </div>
+            </a>
+        <% } %>
+    <% }) %>
+</div>
+
+<div id="pelis2" style="display: none;">
+    <% peliculas.forEach((pelicula, index) => { %>
+        <% if (index >= 5) { %>
+            <a href="/<%= pelicula.id %>" class="movie-link">
+                <div>
+                    <img src="<%= pelicula.image_url %>" alt="<%= pelicula.name %>">
+                    <p><%= pelicula.name %></p>
+                </div>
+            </a>
+        <% } %>
+    <% }) %>
+</div>
+
+<button id="togglePeliculas" class="button_slide slide_right">Mostrar más películas</button>
+
+<!-- Cuadro de diálogo para mostrar detalles si hay una película seleccionada -->
+<% if (pelicula) { %>
+    <dialog id="dialogo-pelicula" open>
+        <h2><%= pelicula.name %></h2>
+        <img src="<%= pelicula.image_url %>" alt="<%= pelicula.name %>">
+        <p><strong>Descripción:</strong> <%= pelicula.description %></p>
+        <p><strong>Año:</strong> <%= pelicula.year %></p>
+        <p><strong>Género:</strong> <%= pelicula.genre %></p>
+        <p><strong>Tráiler:</strong></p>
+        <div><%- pelicula.trailer_url %></div>
+        <button class="button_slide" onclick="cerrarDialogo()">Cerrar</button>
+    </dialog>
+<% } %>
+
+<script>
+    function cerrarDialogo() {
+        window.location.href = '/'; // Volver a la galería principal
+    }
+</script>

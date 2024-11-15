@@ -1,0 +1,51 @@
+@import url(vars.css);
+@import url(header.css);
+@import url(cta.css);
+@import url(pelis.css);
+@import url(footer.css);
+@import url(login.css);
+@import url(contacto.css);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+  background-color: var(--primary-background-color);
+  color: var(--primary-font-color);
+
+  font: 16px Verdana;  
+
+  scrollbar-width: thin;
+  scrollbar-color: #F5A623 #1C1C1C;
+
+
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+main#login{
+  display: flex;
+  flex-direction: column;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1C1C1C;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #F5A623;
+  border-radius: 10px;
+  border: 2px solid #1C1C1C;
+}

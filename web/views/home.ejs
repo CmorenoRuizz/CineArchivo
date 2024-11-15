@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <%- include("partials/head") %>
+
+</head>
+<body>
+    
+    <header id="top">
+
+        <%- include("partials/header") %>
+
+    </header>
+
+
+    <section id="cta">
+
+        <%- include("partials/cta") %>
+
+    </section>
+    
+<main>
+
+    <section id="pelis">
+
+        <%- include("partials/pelisHome2", { peliculas: peliculas, pelicula: pelicula }) %>
+
+    </section>
+
+</main>
+
+    <footer>
+
+        <%- include("partials/footer") %>
+
+    </footer>
+</body>
+</html>

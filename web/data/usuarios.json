@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "name": "Carlos",
+      "email": "carlos@cinearchivo.es",
+      "password": "1234",
+      "copies": [
+        { "id_movie": 1, "status": "fine", "format": "DVD" },
+        { "id_movie": 6, "status": "damaged", "format": "Blu-Ray" },
+        { "id_movie": 3, "status": "fine", "format": "Digital" },
+        { "id_movie": 8, "status": "fine", "format": "DVD" },
+        { "id_movie": 10, "status": "lost", "format": "VHS" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Francisco",
+      "email": "francisco@cinearchivo.es",
+      "password": "1234",
+      "copies": [
+        { "id_movie": 2, "status": "fine", "format": "Blu-Ray" },
+        { "id_movie": 7, "status": "fine", "format": "Digital" },
+        { "id_movie": 4, "status": "fine", "format": "DVD" },
+        { "id_movie": 5, "status": "lost", "format": "Blu-Ray" },
+        { "id_movie": 9, "status": "fine", "format": "Blu-Ray" }
+      ]
+    }
+  ]
+  

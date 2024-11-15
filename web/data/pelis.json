@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "El Señor de los Anillos: La Comunidad del Anillo",
+      "image_url": "/images/anillos.jpg",
+      "description": "Un grupo de héroes emprende un peligroso viaje para destruir un anillo mágico y salvar la Tierra Media.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/V75dMMIW2B4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2001,
+      "genre": "Fantasía, Aventura, Acción"
+    },
+    {
+      "id": 2,
+      "name": "Barbie",
+      "image_url": "/images/barbie.webp",
+      "description": "Barbie se embarca en una aventura en el mundo humano para descubrir el verdadero significado de la vida.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pBk4NYhWNMM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2023,
+      "genre": "Comedia, Fantasía, Drama"
+    },
+    {
+      "id": 3,
+      "name": "Deadpool",
+      "image_url": "/images/deadpool.jpg",
+      "description": "Un antihéroe desfigurado y sarcástico busca vengarse mientras usa su humor ácido y habilidades de combate.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ONHBaC-pfsk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2016,
+      "genre": "Acción, Comedia"
+    },
+    {
+      "id": 4,
+      "name": "Dredd",
+      "image_url": "/images/Dredd.jpg",
+      "description": "En un futuro distópico, un juez callejero lucha contra un imperio criminal en una gigantesca mega-ciudad.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/G-eI5oLlIeY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2012,
+      "genre": "Acción, Ciencia Ficción, Crimen"
+    },
+    {
+      "id": 5,
+      "name": "Harry Potter y la Cámara Secreta",
+      "image_url": "/images/harry potter.png",
+      "description": "Harry Potter regresa a Hogwarts y descubre un oscuro secreto que amenaza la escuela mágica.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/C8CL5TbiFwY?si=ED9c33_ogE8RFWDD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2002,
+      "genre": "Fantasía, Aventura, Familia"
+    },
+    {
+      "id": 6,
+      "name": "Hitman",
+      "image_url": "/images/hitman.webp",
+      "description": "Un asesino a sueldo, conocido como el Agente 47, se ve envuelto en una conspiración internacional.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XJhNzHyq-IE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2007,
+      "genre": "Acción, Crimen, Suspenso"
+    },
+    {
+      "id": 7,
+      "name": "Oppenheimer",
+      "image_url": "/images/Oppenheimer.jpg",
+      "description": "Un físico teórico lidera la creación de la bomba atómica durante la Segunda Guerra Mundial.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bK6ldnjE3Y0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2023,
+      "genre": "Drama, Historia"
+    },
+    {
+      "id": 8,
+      "name": "El Padrino",
+      "image_url": "/images/padrino.webp",
+      "description": "La épica historia de una poderosa familia criminal y el legado de su liderazgo.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UaVTIH8mujA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 1972,
+      "genre": "Crimen, Drama"
+    },
+    {
+      "id": 9,
+      "name": "El Último Samurai",
+      "image_url": "/images/samurai.jpg",
+      "description": "Un oficial estadounidense aprende el camino del samurái mientras lucha por proteger su honor.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/T50_qHEOahQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2003,
+      "genre": "Acción, Drama, Historia"
+    },
+    {
+      "id": 10,
+      "name": "Los Vengadores: Endgame",
+      "image_url": "/images/vengadores.jpg",
+      "description": "Los héroes más poderosos del universo se reúnen para una batalla épica contra Thanos.",
+      "trailer_url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TcMBFSGVi1c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "year": 2019,
+      "genre": "Acción, Aventura, Ciencia Ficción"
+    }
+  ]
+  
