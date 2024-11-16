@@ -1,0 +1,32 @@
+<h2>Tu colección de películas</h2>
+<div id="pelis">
+    <% peliculas.forEach(pelicula => { %>
+        <a href="/user/<%= pelicula.id %>" class="movie-link">
+            <div>
+                <img src="<%= pelicula.image_url %>" alt="<%= pelicula.name %>">
+                <p><%= pelicula.name %></p>
+            </div>
+        </a>
+    <% }) %>
+</div>
+
+<% if (pelicula) { %>    
+    <dialog id="dialogo-pelicula" open>
+        <h2><%= pelicula.name %></h2>
+        <img src="<%= pelicula.image_url %>" alt="<%= pelicula.name %>">
+        <p><strong>Descripción:</strong> <%= pelicula.description %></p>
+        <p><strong>Año:</strong> <%= pelicula.year %></p>
+        <p><strong>Género:</strong> <%= pelicula.genre %></p>
+        <p><strong>Estado:</strong> <%= pelicula.status %></p>
+        <p><strong>Formato:</strong> <%= pelicula.format %></p>
+        <p><strong>Tráiler:</strong></p>
+        <div><%- pelicula.trailer_url %></div>
+        <button class="button_slide" onclick="cerrarDialogo()">Cerrar</button>
+    </dialog>
+<% } %>
+
+<script>
+    function cerrarDialogo() {
+        window.location.href = '/user';
+    }
+</script>

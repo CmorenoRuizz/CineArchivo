@@ -2,7 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');
-const session = require('express-session'); // Requiere express-session solo una vez
+const session = require('express-session');
 
 var indexRouter = require('./routes/index');
 
@@ -20,10 +20,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Configuración de la sesión
 app.use(session({
-  secret: '65324534562624523453455', // Cambia a una clave única y segura
+  secret: '65324534562624523453455', 
   saveUninitialized: true,
-  resave: false, // Es preferible usar `false` para evitar guardar sesiones sin cambios
-  cookie: { secure: false } // Cambia a `true` si usas HTTPS
+  resave: false, 
+  cookie: { secure: false } 
 }));
 
 // Rutas
